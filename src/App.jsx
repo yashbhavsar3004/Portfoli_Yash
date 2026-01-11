@@ -50,9 +50,23 @@ const Portfolio = () => {
       'Customer and policy management',
       'Role-based access and secure REST APIs',
       'Angular-based user dashboard',
-      'CI/CD enabled cloud deployments'
+      'Cloud deployments',
+      
     ]
   },
+   {
+  title: "Mahindra Farm Division (FD) System Enhancement",
+  problem:
+    "Enterprise system enhancement for Mahindra to introduce a new Farm Division and role-based workflows within an existing internal platform.",
+  tech: ["AngularJS", "Enterprise Systems", "Role-Based Access", "REST APIs"],
+  features: [
+    "Designed and implemented UI changes to support new Farm Division user roles",
+    "Worked on registration and OTP-based user verification flow",
+    "Implemented dynamic form behavior based on user roles and divisions",
+    "Collaborated with backend teams to align UI and data model changes"
+  ]
+}
+,
   {
     title: 'Reflector IoT Platform',
     problem:
@@ -65,6 +79,7 @@ const Portfolio = () => {
       'Secure communication with Edge and Shadow Hub devices'
     ]
   },
+ 
   {
     title: 'Edge Hub & Shadow Hub Device Platform',
     problem:
@@ -87,10 +102,12 @@ const Portfolio = () => {
       location: 'Pune, India',
       period: 'Apr 2023 – Present',
     achievements:  [
- 'Developed full-stack applications using Vue.js, Node.js, and SQLite',
- 'Integrated REST and MQTT APIs for IoT device communication',
- 'Implemented MVC architecture and reusable UI components',
- 'Improved performance and reliability for 500+ active devices'
+ "Worked on an enterprise client project for Mahindra to introduce a new Farm Division (FD) into their internal system",
+"Designed UI workflows and data mapping for new roles and divisions",
+"Built AngularJS screens for registration, login, and role-based UI behavior",
+"Participated in on-site client meetings to discuss requirements, progress, and delivery",
+"Coordinated with team members to track tasks and ensure timely implementation"
+
 ]
 
     },
@@ -397,7 +414,7 @@ const Portfolio = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="flex gap-3">
+                {/* <div className="flex gap-3">
                   <button className="flex-1 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-lg text-sm text-blue-400 hover:bg-blue-500/20 transition-all flex items-center justify-center gap-2">
                     <ExternalLink size={14} />
                     Live Demo
@@ -406,7 +423,7 @@ const Portfolio = () => {
                     <Github size={14} />
                     GitHub
                   </button>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
@@ -492,7 +509,7 @@ const Portfolio = () => {
               </div>
             </a>
 
-            <a
+            {/* <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -503,7 +520,7 @@ const Portfolio = () => {
                 <div className="text-xs text-gray-500">GitHub</div>
                 <div className="text-gray-300">View my code</div>
               </div>
-            </a>
+            </a> */}
 
             <a
               href="tel:+917218037403"
@@ -546,14 +563,14 @@ const Portfolio = () => {
               >
                 <Linkedin size={20} />
               </a>
-              <a
+              {/* <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-900/50 border border-gray-800 rounded-lg hover:border-blue-500 hover:bg-blue-500/10 transition-all"
               >
                 <Github size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="text-center text-gray-600 text-sm mt-8">
